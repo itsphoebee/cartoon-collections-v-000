@@ -21,5 +21,4 @@ def find_the_cheese(all_cheeses)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   all_cheeses.find {|cheese| cheese_types.include? cheese ? cheese : nil
   }
-
 end
