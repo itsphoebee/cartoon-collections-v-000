@@ -1,6 +1,6 @@
 def roll_call_dwarves(list)# code an argument here
   # Your code here
-  list.each_with_index {|i, order| puts i puts order
+  list.each_with_index {|i, order| puts "i" puts "order"
     }
 
 end
