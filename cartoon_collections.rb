@@ -12,7 +12,9 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-  calls.find {|call| if call.size > 4 return true
+  calls.find {|call|
+    if call.size > 4
+      return true
     else
       false
   }
