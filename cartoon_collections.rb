@@ -5,7 +5,7 @@ end
 
 def summon_captain_planet(summons)# code an argument here
   # Your code here
-  summons.join(" ")
+  summons.join(" ").upcase
 end
 
 def long_planeteer_calls# code an argument here
