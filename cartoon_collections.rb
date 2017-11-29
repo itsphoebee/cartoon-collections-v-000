@@ -5,7 +5,7 @@ end
 
 def summon_captain_planet(summons)# code an argument here
   # Your code here
-  summons.each {|summon| <<!}
+  summons.map {|summon| <<!}
 end
 
 def long_planeteer_calls# code an argument here
