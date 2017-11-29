@@ -1,9 +1,9 @@
 def roll_call_dwarves(list)# code an argument here
   # Your code here
   list.each_with_index do
-    {|i,order| 
+    {|i,order|
       puts i
-      puts order  
+      puts order
     }
   end
 end
