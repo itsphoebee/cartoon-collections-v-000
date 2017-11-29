@@ -12,13 +12,13 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-  calls.find {|call| call.size > 4? true : false
+  calls.find {|call| call.size > 4? return true : false
   }
 end
 
 def find_the_cheese(all_cheeses)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-
+  all_cheeses.find do 
 
 end
